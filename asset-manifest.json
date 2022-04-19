@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/inurum_website/static/css/main.940b9bdc.css",
-    "main.js": "/inurum_website/static/js/main.422966fb.js",
+    "main.js": "/inurum_website/static/js/main.0e2fbead.js",
     "static/media/img1.jpg": "/inurum_website/static/media/img1.2a7e6bc1df4c45f06984.jpg",
     "static/media/img2.jpg": "/inurum_website/static/media/img2.a95d38b37e39144926af.jpg",
     "index.html": "/inurum_website/index.html",
     "main.940b9bdc.css.map": "/inurum_website/static/css/main.940b9bdc.css.map",
-    "main.422966fb.js.map": "/inurum_website/static/js/main.422966fb.js.map"
+    "main.0e2fbead.js.map": "/inurum_website/static/js/main.0e2fbead.js.map"
   },
   "entrypoints": [
     "static/css/main.940b9bdc.css",
-    "static/js/main.422966fb.js"
+    "static/js/main.0e2fbead.js"
   ]
 }
