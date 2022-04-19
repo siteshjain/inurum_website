@@ -75,6 +75,7 @@ section {
     text-align: left !important;
     text-decoration: none !important;
 }
+
 .btn-link::after{
     content: '\2212';
     width: 25px;
@@ -86,15 +87,16 @@ section {
     font-weight: 900;
     position: absolute;
     color: #ffffff;
-    background-color: #000;
+    background-color: rgb(123, 88, 228);
 
 }
+
 .btn-link.collapsed::after{
     content: '\002B';
 }
 
 
-@media(max-width: 992px) {
+@media(max-width: 1000px) {
     section {
         grid-template-columns: 1fr;
         width: 100%;
@@ -113,7 +115,29 @@ section {
         font-size: 20px;
         margin-top: 50px;
     }
-
    
     
+}
+@media(max-width: 500px) {
+    section {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .image {
+        height: 100vh;
+    }
+
+    .content {
+        height: 100vh;
+        margin-bottom: 60px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+
+
 }

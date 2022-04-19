@@ -9,11 +9,12 @@ const Home = () => {
                 <h4>Execute your Ideas with</h4>
                 <h1>Inurum Technology</h1>
                 <p>Inurum Technology delivered the quality of service in Mobile <br></br>Development, IoT, Web and Hardware Industry</p>
-                <a href="/about" className='linkTo'>Read More</a>
+                <a href="/inurum_website/about" className='linkTo'>Read More</a>
             </div>
         </header>
         <div className="wrapper1">
             <h1>Mission and values</h1>
+            
             <p>We have more then 8 years experience in Hardware and Mobile Industry<br></br> and provide you end to end products and our mission and values drive<br></br> our people and impact our customers and communities.</p>
             <div className="content-box">
                 <div className="card">
