@@ -1,11 +1,12 @@
 import React from 'react'
 import './style1.css'
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
         <nav className="navbar navbar-expand-lg navbar-mainbg">
    
-    <a className="navbar-brand navbar-logo" href="/">Digital</a>
+    <NavLink className="navbar-brand navbar-logo" to="/">Digital</NavLink>
   
     <button 
       className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,27 +18,27 @@ const Navbar = () => {
         <ul className="navbar-nav ml-auto">
           
             <li className="nav-item">
-                <a 
-                  className="nav-link" href="/inurum_website">Home
-                </a>
+                <NavLink
+                  className="nav-link" to="/inurum_website">Home
+                </NavLink>
             </li>
             <li className="nav-item active">
-                <a 
-                  className="nav-link" href="/about">
+                <NavLink
+                  className="nav-link" to="/inurum_website/about">
                  About us
-                </a>
+                </NavLink>
             </li>
             <li className="nav-item">
-                <a 
-                  className="nav-link" href="/service">
+                <NavLink
+                  className="nav-link" to="/inurum_website/service">
                  Services
-                </a>
+                </NavLink>
             </li>
             <li className="nav-item">
-                <a 
-                  className="nav-link" href="/inurum_website">
+                <NavLink
+                  className="nav-link" to="/inurum_website">
                  Contact us
-                </a>
+                </NavLink>
             </li>
         </ul>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
    <footer class="footer">
@@ -9,28 +10,28 @@ const Footer = () => {
                    
   	 			<h4>Let connect us.</h4>
   	 			<div class="social-links">
-  	 				<a href="/inurum_website"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="/inurum_website"><i class="fab fa-google"></i></a>
-  	 				<a href="/inurum_website"><i class="fab fa-instagram"></i></a>
-  	 				<a href="/inurum_website"><i class="fab fa-linkedin-in"></i></a>
+  	 				<NavLink to="/inurum_website"><i class="fab fa-facebook-f"></i></NavLink>
+  	 				<NavLink to="/inurum_website"><i class="fab fa-google"></i></NavLink>
+  	 				<NavLink to="/inurum_website"><i class="fab fa-instagram"></i></NavLink>
+  	 				<NavLink to="/inurum_website"><i class="fab fa-linkedin-in"></i></NavLink>
   	 			</div>
   	 		</div>
   	 		<div class="footer-col">
   	 			<h4>company</h4>
   	 			<ul>
-  	 				<li><a href="/inurum_website">Home</a></li>
-  	 				<li><a href="/inurum_website/about">About</a></li>
-  	 				<li><a href="/inurum_website/service">Services</a></li>
-  	 				<li><a href="/inurum_website/contact">Contact</a></li>
+  	 				<li><NavLink to="/inurum_website">Home</NavLink></li>
+  	 				<li><NavLink to="/inurum_website/about">About</NavLink></li>
+  	 				<li><NavLink to="/inurum_website/service">Services</NavLink></li>
+  	 				<li><NavLink to="/inurum_website/contact">Contact</NavLink></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
   	 			<h4>Business</h4>
   	 			<ul>
-  	 				<li><a href="/inurum_website">Project</a></li>
-  	 				<li><a href="/inurum_website">Our Team</a></li>
-  	 				<li><a href="/inurum_website">Facts</a></li>
-  	 				<li><a href="/inurum_website">Customers</a></li>
+  	 				<li><NavLink to="/inurum_website">Project</NavLink></li>
+  	 				<li><NavLink to="/inurum_website">Our Team</NavLink></li>
+  	 				<li><NavLink to="/inurum_website">Facts</NavLink></li>
+  	 				<li><NavLink to="/inurum_website">Customers</NavLink></li>
   	 				
   	 			</ul>
   	 		</div>
