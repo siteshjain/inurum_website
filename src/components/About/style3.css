@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #eff2ff;
+}
+.section-2{
+    background-color: #eff2ff;
+    width: 100%;
+}
+
+.cover{
+    width:100%;
+    height: 80vmin;
+    background: url('../../../public/images/img2.jpg');
+    background-position: -24rem -19rem;
+    background-size: 150% !important;
+    position: relative;
+   
+}
+
+.cover .content{
+    background: rgba(4, 20, 35, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.cover .content h1{
+    font-size: 35px;
+    font-weight: bold;
+    padding:20px;
+   
+}
+.cover .content h4{
+    padding: 10px;
+    font-weight: bold;
+}
+.cover .content h6{
+    padding: 10px;
+    font-weight: bold;
+}
+.numbers{
+    margin-top: -70px;
+}
+.rect{
+    position: relative;
+    z-index:1;
+    background: white;
+    width: 21.7rem;
+    height: 30rem;
+    padding-top: 35px;
+    border-radius: 5px;
+    margin: 1rem;
+    /* box-shadow: 1px 2px 50px 0px ; */
+}
+
+.numbers .rect h1{
+    font-size: 30px;
+    text-align: justify;
+    font-weight: bold;
+    padding: 10px;
+    /* margin-left: 10px; */
+    color:#242a56;
+}
+
+.numbers .rect p{
+    color: #000;
+    text-align:justify;
+    font-size: 14px;
+    word-spacing: 2px;
+    line-height: 25px;
+    padding: 10px;
+    margin: 8px;
+}
+.count{
+  margin-left: 30px;
+}
+.count p{
+color: #000;
+text-align:center;
+font-size: 14px;
+word-spacing: 2px;
+line-height: 0px !important;
+padding: 3px !important;
+margin: 2px !important;
+    
+}
+.count i{
+    margin-right: 10px;
+    color: #6878d6;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ffffff ;
+    
+}
+
+.wrapper .head {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.wrapper .content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin-top: 30px;
+   
+}
+
+.wrapper .content-box .card {
+    min-height: 220px;
+    width: 350px;
+    padding: 30px;
+    border: none;
+    background-color:#ffffff;
+}
+.wrapper .content-box .card h1{
+    text-align: justify;
+    font-size: 100px;
+    color: #eff2ff;
+    font-weight: bold;
+}
+
+
+.wrapper .content-box .card h4 {
+    margin: 0px;
+    text-align: justify;
+    font-weight: 700;
+  color: #242a56;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.wrapper .content-box .card p {
+    color: #000;
+    text-align: justify;
+    margin-top: 35px;
+}
+
+.satisfied{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: #eff2ff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 40vmin;
+}
+
+.satisfied .show1 p{
+    color: #000;
+    padding-top: 10px;
+}
+.satisfied .show1 h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: #242a56;;
+   
+}
+.satisfied .show2 p{
+  color: #242a56;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.satisfied .show2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.satisfied .show2 h1{
+    color: #6878d6;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+@media(max-width: 767px) {
+    /* .rect{
+        width: 40rem;
+        height:24rem ;
+    }
+    .rect:last-child{
+        height: 28rem;
+    }
+    .rect:first-child{
+        height: 22rem;
+    } */
+    .wrapper {
+        padding: 25px;
+    }
+    
+    .wrapper .head {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .wrapper .content-box {
+        flex-direction: column;
+        width: 100%;
+    }
+    .wrapper .cover {
+      width: 100% !important;
+    
+    }
+    
+    .wrapper .content-box .card {
+        width: 540px;
+        margin: 10px auto;
+    }
+    .wrapper .content-box .card h1{
+        font-size: 100px;
+    }
+    .wrapper .content-box .card h4 {
+        margin-top: -20px;
+    }
+    .satisfied{
+        flex-direction: column;
+        margin-bottom: 70px;
+        height: 72vmin;
+    }
+    .satisfied .show2{
+        flex-direction: row;
+    }
+}
+@media(max-width: 974px) {
+    /* .rect {
+        width: 40rem;
+        height: 30rem;
+    }
+    
+    .rect:last-child {
+        height: 28rem;
+    }
+    
+    .rect:first-child {
+        height: 26rem;
+    } */
+    .wrapper .content-box {
+        flex-direction: column;
+        width: 100%;
+    }
+    .wrapper .content{
+        width: 100% !important;
+    }
+    .wrapper .cover {
+      width: 100% !important;
+       
+    }
+  
+    .wrapper .cover .content h4 {
+        
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .wrapper {
+        padding: 25px;
+    }
+    
+    .wrapper .head {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+    
+   
+    
+    .wrapper .content-box .card {
+        width: 420px;
+        margin: 10px auto;
+    }
+    
+    .wrapper .content-box .card h1 {
+        font-size: 100px;
+    }
+    .wrapper .content-box .card h4{
+        margin-top: -20px;
+    }
+}
+@media(max-width: 574px) {
+    /* .rect {
+        width: 40rem;
+        height: 30rem;
+    }
+
+    .rect:last-child {
+        height: 28rem;
+    }
+
+    .rect:first-child {
+        height: 26rem;
+    } */
+    .section-2{
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .numbers {
+        margin-top: -55px;
+    }
+
+    .wrapper .content-box {
+        flex-direction: column;
+        width: 100vmax;
+    }
+    .wrapper .cover .content{
+        height: 100%;
+        width: 100% !important;
+    }
+   
+
+    .wrapper .cover {
+        height: 127vmin;
+        width: 100% !important;
+
+    }
+
+    .wrapper .cover .content h4 {
+
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .wrapper {
+        padding: 25px;
+    }
+
+    .wrapper .head {
+        font-size: 36px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+
+
+
+    .content-box .card {
+        width: 420px;
+        margin: 10px auto;
+    }
+
+    .content-box .card h1 {
+        font-size: 160px;
+    }
+
+    .card h4 {
+        margin-top: -20px;
+    }
+}
