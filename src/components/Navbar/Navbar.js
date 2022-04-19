@@ -23,13 +23,13 @@ const Navbar = () => {
             </li>
             <li className="nav-item active">
                 <a 
-                  className="nav-link" href="/inurum_website/about">
+                  className="nav-link" href="/about">
                  About us
                 </a>
             </li>
             <li className="nav-item">
                 <a 
-                  className="nav-link" href="/inurum_website/service">
+                  className="nav-link" href="/service">
                  Services
                 </a>
             </li>

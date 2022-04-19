@@ -12,8 +12,8 @@ function App() {
       <Navbar/>
       <Switch>
          <Route exact path="/inurum_website" component={Home}/>
-          <Route exact path="/inurum_website/about" component={About}/>
-           <Route exact path="/inurum_website/service" component={Service}/>
+          <Route exact path="/about" component={About}/>
+           <Route exact path="/service" component={Service}/>
       </Switch>
    
       
