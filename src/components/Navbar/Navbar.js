@@ -18,24 +18,24 @@ const Navbar = () => {
           
             <li className="nav-item">
                 <a 
-                  className="nav-link" href="/">Home
+                  className="nav-link" href="/inurum_website">Home
                 </a>
             </li>
             <li className="nav-item active">
                 <a 
-                  className="nav-link" href="/about">
+                  className="nav-link" href="/inurum_website/about">
                  About us
                 </a>
             </li>
             <li className="nav-item">
                 <a 
-                  className="nav-link" href="/service">
+                  className="nav-link" href="/inurum_website/service">
                  Services
                 </a>
             </li>
             <li className="nav-item">
                 <a 
-                  className="nav-link" href="/">
+                  className="nav-link" href="/inurum_website">
                  Contact us
                 </a>
             </li>
