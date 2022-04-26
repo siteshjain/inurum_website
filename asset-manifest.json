@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/inurum_website/static/css/main.9250ffd9.css",
-    "main.js": "/inurum_website/static/js/main.486c04cd.js",
+    "main.css": "/inurum_website/static/css/main.81da7c16.css",
+    "main.js": "/inurum_website/static/js/main.d1911fed.js",
+    "static/media/3.gif": "/inurum_website/static/media/3.ffdf3ee80c3c48de63ec.gif",
+    "static/media/4.gif": "/inurum_website/static/media/4.7f01ea0424ee421b6597.gif",
+    "static/media/2.gif": "/inurum_website/static/media/2.d54dfd9d01f65285cd4b.gif",
+    "static/media/5.gif": "/inurum_website/static/media/5.bdfeeb7441d95d205678.gif",
+    "static/media/1.gif": "/inurum_website/static/media/1.5485b91e3587e47c265a.gif",
+    "static/media/6.gif": "/inurum_website/static/media/6.49b0cd79ff31d10b9be0.gif",
     "static/media/img1.jpg": "/inurum_website/static/media/img1.2a7e6bc1df4c45f06984.jpg",
     "static/media/img2.jpg": "/inurum_website/static/media/img2.a95d38b37e39144926af.jpg",
     "index.html": "/inurum_website/index.html",
-    "main.9250ffd9.css.map": "/inurum_website/static/css/main.9250ffd9.css.map",
-    "main.486c04cd.js.map": "/inurum_website/static/js/main.486c04cd.js.map"
+    "main.81da7c16.css.map": "/inurum_website/static/css/main.81da7c16.css.map",
+    "main.d1911fed.js.map": "/inurum_website/static/js/main.d1911fed.js.map"
   },
   "entrypoints": [
-    "static/css/main.9250ffd9.css",
-    "static/js/main.486c04cd.js"
+    "static/css/main.81da7c16.css",
+    "static/js/main.d1911fed.js"
   ]
 }
