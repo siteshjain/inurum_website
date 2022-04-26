@@ -1,0 +1,59 @@
+
+.nav1{
+    background-color: rgb(58, 77, 116) !important;
+    /* height: 0px; */
+    width: 100%;
+    display: block;
+}
+.nav1 ul{
+    float:right;
+    margin-right: 5%;
+}
+.nav1 ul li{
+     margin-top: 12px;
+  
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav1 ul li a{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 4px;
+    color:#000;
+    text-decoration: none;
+    padding: 15px;
+   margin-left: 10px;
+    text-align: center;
+}
+.nav1 ul li span{
+    padding: 10px;
+}
+.top_icon{
+    float: left;
+    margin-left: 5%;
+}
+.top_icon .social-top{
+    padding: 14px 15px;
+}
+.top_icon .social-top a{
+    padding: 13px;
+    color: #000;
+    
+}
+.nav1 ul li a:hover{
+    font-weight: bold;
+    color: #040202;
+}
+.nav1 i:hover{
+    font-weight: bold;
+    color: #040202;
+
+}
+@media screen and (max-width:1052px){
+    .nav1{
+        display: none;
+    }
+    
+}

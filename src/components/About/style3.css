@@ -35,7 +35,7 @@ body{
 }
 
 .cover .content h1{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     padding:20px;
    
@@ -43,10 +43,12 @@ body{
 .cover .content h4{
     padding: 10px;
     font-weight: bold;
+    font-size: 30px;
 }
 .cover .content h6{
     padding: 10px;
     font-weight: bold;
+    font-size: 20px;
 }
 .numbers{
     margin-top: -70px;
@@ -71,6 +73,11 @@ body{
     padding: 10px;
     /* margin-left: 10px; */
     color:#242a56;
+}
+.numbers .rect .about_img{
+    width: 30px;
+    height: 30px;
+    text-align: justify;
 }
 
 .numbers .rect p{

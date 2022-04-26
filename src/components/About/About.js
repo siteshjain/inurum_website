@@ -15,11 +15,13 @@ const About = () => {
           <div className="container-fluid text-center">
               <div className="numbers d-flex flex-md-row flex-wrap justify-content-center">
                   <div className="rect">
+                  
                       <h1>Who Are We</h1>
                       <p>At Inurum, we develop innovative and creative products and services that provide total communication and information solutions. Among a plethora of services, web design and development,mobile development, e-commerce solutions, business-to-business applications, business-to-client applications, hardware design, PCB designs, managed hosting and internet portal management are few that we offer. Satisfied clients around the globe bear testimony to the quality of our work.</p>
 
                   </div>
                   <div className="rect">
+                    
                       <h1>Our Mission</h1>
                       <p>As a leader in technology exploring, Inurum is committed to exporting quality software worldwide.
                           <br></br><br></br>
@@ -30,6 +32,7 @@ Inurum’s business philosophy is to assure the highest quality product, total c
 
                   </div>
                   <div className="rect">
+                     
                       <h1>What We Do</h1>
                       <div className="count">
 

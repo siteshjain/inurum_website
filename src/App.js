@@ -6,9 +6,11 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import {Switch,Route} from 'react-router-dom'
 import Service from './components/Services/Service';
+import Nav from './components/Nav/Nav';
 const  App=() =>{
   return (
     <div className="App">
+      <Nav/>
       <Navbar/>
       <Switch>
          <Route exact path="/inurum_website" component={Home}/>

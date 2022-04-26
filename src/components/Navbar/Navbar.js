@@ -1,6 +1,6 @@
 import React from 'react'
 import './style1.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
@@ -18,25 +18,25 @@ const Navbar = () => {
         <ul className="navbar-nav ml-auto">
           
             <li className="nav-item">
-                <NavLink
+                <NavLink exact activeClassName='nav-active'
                   className="nav-link" to="/inurum_website">Home
                 </NavLink>
             </li>
-            <li className="nav-item active">
-                <NavLink
+            <li className="nav-item ">
+                <NavLink exact activeClassName='nav-active'
                   className="nav-link" to="/inurum_website/about">
                  About us
                 </NavLink>
             </li>
             <li className="nav-item">
-                <NavLink
+                <NavLink exact activeClassName='nav-active'
                   className="nav-link" to="/inurum_website/service">
                  Services
                 </NavLink>
             </li>
             <li className="nav-item">
-                <NavLink
-                  className="nav-link" to="/inurum_website">
+                <NavLink exact activeClassName='nav-active'
+                  className="nav-link" to="/inurum_websi">
                  Contact us
                 </NavLink>
             </li>

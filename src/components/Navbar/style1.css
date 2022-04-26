@@ -1,16 +1,23 @@
 .navbar-logo {
     padding: 15px;
-    color: #fff;
+    color: #000;
     font-size: 30px !important;
 }
 
 .navbar-mainbg {
-background: rgb(26, 65, 83);
+background: #ffffff;
 width: 100%;
 border: none;
 border-bottom: none;
 }
 
+.navbar-toggler{
+    color: #000;
+}
+.nav-item .nav-active{
+    border-bottom: 2px solid rgb(219, 39, 39);
+    font-weight: bold;
+}
 #navbarSupportedContent {
     overflow: hidden;
     position: relative;
@@ -32,7 +39,7 @@ border-bottom: none;
 }
 
 #navbarSupportedContent ul li a {
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
     font-size: 20px;
     display: block;
@@ -44,8 +51,8 @@ border-bottom: none;
 
 #navbarSupportedContent ul li a:hover{
     font-size: 20px;
-    border-bottom: 0.2px solid white;
    color: rgb(219, 39, 39);
+    transition: .5s all;
 }
 
 #navbarSupportedContent a:not(:only-child):after {
@@ -54,14 +61,14 @@ border-bottom: none;
     right: 20px;
     top: 10px;
     font-size: 14px;
-   
+  
     display: inline-block;
     padding-right: 3px;
     vertical-align: middle;
     font-weight: 900;
     transition: 0.5s;
 }
-.hori-selector {
+/* .hori-selector {
     display: inline-block;
     position: absolute;
     height: 100%;
@@ -110,17 +117,28 @@ border-bottom: none;
 .hori-selector .left:before {
     bottom: 0;
     left: -25px;
-}
+} */
 
 
 
 
 
 @media (max-width: 991px) {
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: cornflowerblue;
+        border-radius: .25rem;
+        
+    }
+    .navbar-toggler i{
+        color: #000 !important;
+    }
     #navbarSupportedContent ul li a {
         padding: 12px 30px;
     }
-    .hori-selector {
+    /* .hori-selector {
         margin-top: 0px;
         margin-left: 10px;
         border-radius: 0;
@@ -150,7 +168,7 @@ border-bottom: none;
     .hori-selector .right:before {
         bottom: -25px;
         left: -25px;
-    }
+    } */
 
     
 }
